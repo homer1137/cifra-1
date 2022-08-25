@@ -1,0 +1,131 @@
+:root {
+    --primary-color: #415167;
+    --accent-color: #c7a17a;
+    --dark-color: #151d28;
+    --light-color: #edf0f5;
+    --biege-color: #f9f5e8;
+  }
+  
+  .page {
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .login {
+    width: 1346px;
+    margin: 0 auto;
+    padding-bottom: 126px;
+    height: 100vh;
+    background: linear-gradient(
+      to right,
+      #f2f2f2 75.64%,
+      rgba(65, 81, 103, 1) 75.64%
+    );
+  }
+  .title-small {
+    height: 20px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    color: var(--primary-color);
+  }
+  .title1 {
+    height: 35px;
+    font-family: "Montserrat";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 30px;
+    line-height: 34px;
+    color: var(--primary-color);
+  }
+  .login__title-small__wrapper {
+    padding-top: 88px;
+    margin-bottom: 6px;
+  }
+  .login__title1__wrapper {
+    margin-bottom: 64px;
+  }
+  
+  .center {
+    margin: 0 auto;
+    text-align: center;
+  }
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .login-form-field::placeholder {
+    color: #3a3a3a;
+    font-size: 20px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .login-form-field {
+    border: none;
+    
+    margin-bottom: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding: 10px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22px;
+  }
+  
+  .button {
+    background: var(--accent-color);
+    border-radius: 19px;
+    font-family: "Nunito";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-align: center;
+    color: #f9fbff;
+    border: none;
+    padding: 6px 15px;
+    transition: 0.3s;
+    cursor: pointer;
+  }
+  .button:hover {
+    box-shadow: 0px 0px 10px goldenrod;
+  }
+  
+  .button:active {
+    color: var(--accent-color);
+    background: #f9fbff;
+  }
+  
+  .link {
+      font-family: "Nunito";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 24px;
+      color: var(--primary-color);
+      text-decoration: none;
+      text-transform: uppercase;
+      transition: 0.3s;
+    }
+    .link:hover {
+      color: var(--accent-color);
+    }
+    .link:active {
+      color: rgba(18, 105, 50, 0.445);
+    }
+  
+    .bottom20 {
+      margin-bottom: 20px;
+    }
